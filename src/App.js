@@ -33,7 +33,6 @@ class App extends React.Component {
 
   render() {
     var quote = this.state.quoteList;
-    var urr = "https://picsum.photos/200/300?grayscale?random=1";
 
     function ran() {
       var random = Math.floor(Math.random() * 100) + 1;
@@ -88,7 +87,7 @@ class App extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fa fa-github"></i>
+                    <i className="fa fa-github"> </i>
                   </a>
                 </li>
 
@@ -135,7 +134,7 @@ class App extends React.Component {
                   <h2 className="post-title">
                     <a href={() => false}>{quote.quote}</a>
                   </h2>
-                  <p>Writing….</p>
+                  <p> {quote.author} </p>
                   <span className="post-date">
                     {quote.created_at} &nbsp;&nbsp;&nbsp;—&nbsp;
                   </span>
