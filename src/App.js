@@ -3,6 +3,7 @@ import "./App.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./index.css";
 import React from "react";
+import moment from "moment";
 
 class App extends React.Component {
   constructor(props) {
@@ -136,7 +137,8 @@ class App extends React.Component {
                   </h2>
                   <p> {quote.author} </p>
                   <span className="post-date">
-                    {quote.created_at} &nbsp;&nbsp;&nbsp;—&nbsp;
+                    {moment(quote.created_at).format("LLLL")}
+                    &nbsp;&nbsp;&nbsp;—&nbsp;
                   </span>
                   <span className="post-words">1 minute read</span>
                 </div>
