@@ -5,6 +5,10 @@ on:
     branches:
       - master
 
+    strategy:
+      matrix:
+        node-version: [15.x]
+
 jobs:
   build:
     runs-on: ubuntu-latest
