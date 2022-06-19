@@ -111,7 +111,7 @@ class App extends React.Component {
             </section>
 
             <div className="copyright">
-              <p>2022 &copy; MH Rabbii</p>
+              <p>2022 &copy; MH Rabbi</p>
             </div>
           </footer>
         </aside>
