@@ -5,6 +5,7 @@ import "./index.css";
 import React from "react";
 import moment from "moment";
 
+var api = "https://djpyapi.herokuapp.com/quotes/";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -20,7 +21,7 @@ class App extends React.Component {
 
   fetchTasks() {
     console.log("Fetching....");
-    fetch("http://127.0.0.1:8000/api/")
+    fetch(api)
       .then((response) => response.json())
       .then((data) =>
         this.setState({
