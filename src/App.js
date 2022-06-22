@@ -4,8 +4,11 @@ import "font-awesome/css/font-awesome.min.css";
 import "./index.css";
 import React from "react";
 import moment from "moment";
+import axios from "axios";
 
-var api = "https://djpyapi.herokuapp.com/quotes/";
+const api = axios.create({
+  baseURL: "https://djpyapi.herokuapp.com/",
+});
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -19,19 +22,12 @@ class App extends React.Component {
     this.fetchTasks();
   }
 
-  fetchTasks() {
-    console.log("Fetching....");
-    fetch(api)
-      .then((response) => response.json())
-      .then((data) =>
-        this.setState({
-          quoteList: data,
-        })
-      )
-      .catch((err) => {
-        console.log(err.message);
-      });
-  }
+  fetchTasks = () => {
+    api.get("/quotes/").then((res) => {
+      // console.log(res.data)
+      this.setState({ quoteList: res.data });
+    });
+  };
 
   render() {
     var quote = this.state.quoteList;
