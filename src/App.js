@@ -34,7 +34,7 @@ class App extends React.Component {
           <header>
             <div className="about">
               <div className="cover-author-image">
-                <a href="">
+                <a href="/">
                   <img src={img} alt="MH Rabbi" />
                 </a>
               </div>
