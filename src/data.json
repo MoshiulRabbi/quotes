@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2,
+    "quote": "You are the shuckiest shuck faced shuck in the world!",
+    "status": "Perceived",
+    "created_at": "1/8/2023 9:43:24 PM"
+  },
+  {
+    "id": 1,
+    "quote": "yo from vw",
+    "status": "experienced",
+    "created_at": "1/8/2023 8:45:24 PM"
+  },
+  {
+    "id": 3,
+    "quote": "yo from booo",
+    "status": "boo",
+    "created_at": "1/9/2023 1:4:24 PM"
+  },
+  {
+    "id": "4",
+    "quote": "tesrrr",
+    "status": "experienced",
+    "created_at": "1/9/2023 9:45:24 PM"
+  },
+  {
+    "id": "5",
+    "quote": "5th ",
+    "status": "perceived",
+    "created_at": "1/9/2023 10:03:13 PM"
+  }
+]

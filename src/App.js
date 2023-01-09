@@ -4,11 +4,7 @@ import "font-awesome/css/font-awesome.min.css";
 import "./index.css";
 import React from "react";
 import moment from "moment";
-import axios from "axios";
 
-const api = axios.create({
-  baseURL: "https://djpyapi.herokuapp.com/",
-});
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -23,30 +19,22 @@ class App extends React.Component {
   }
 
   fetchTasks = () => {
-    api.get("/quotes/").then((res) => {
-      // console.log(res.data)
-      this.setState({ quoteList: res.data });
+    let data = require("./data.json");
+    data.sort((a, b) => {
+      return new Date(b.created_at) - new Date(a.created_at);
     });
+    this.setState({ quoteList: data });
   };
 
   render() {
     var quote = this.state.quoteList;
-
-    function ran() {
-      var random = Math.floor(Math.random() * 100) + 1;
-      var u = "https://picsum.photos/200/300?grayscale?random=" + random;
-      return u;
-    }
-
-    // ui = ran();
-
     return (
       <div className="wrapper">
         <aside className="sidebar">
           <header>
             <div className="about">
               <div className="cover-author-image">
-                <a href="/blog/">
+                <a href="">
                   <img src={img} alt="MH Rabbi" />
                 </a>
               </div>
@@ -108,7 +96,7 @@ class App extends React.Component {
             </section>
 
             <div className="copyright">
-              <p>2022 &copy; MH Rabbi</p>
+              <p>2023 &copy; MH Rabbi</p>
             </div>
           </footer>
         </aside>
@@ -117,27 +105,15 @@ class App extends React.Component {
           {quote.map(function (quote, index) {
             return (
               <article key={index} className="post">
-                <a
-                  href={() => false}
-                  className="post-thumbnail"
-                  // style="background-image: url(./img/someones-dream.jpg)"
-                  style={{
-                    backgroundImage: `url("${ran()}")`,
-                  }}
-                >
-                  {" "}
-                </a>
-
                 <div className="post-content">
                   <h2 className="post-title">
-                    <a href={() => false}>{quote.quote}</a>
+                    <a href={() => false}>"{quote.quote}"</a>
                   </h2>
-                  <p> {quote.author} </p>
+                  <p className="post-words"> ({quote.status}) </p>
                   <span className="post-date">
-                    {moment(quote.created_at).format("LLLL")}
-                    &nbsp;&nbsp;&nbsp;—&nbsp;
+                    —{moment(quote.created_at).format("LLLL")}
                   </span>
-                  <span className="post-words">1 minute read</span>
+                  {/* <span className="post-words">Perceived</span> */}
                 </div>
               </article>
             );
