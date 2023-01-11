@@ -1,38 +1,512 @@
 [
   {
-    "id": 2,
-    "quote": "You are the shuckiest shuck faced shuck in the world!",
-    "status": "Perceived",
-    "created_at": "1/8/2023 9:43:24 PM"
-  },
-  {
-    "id": 1,
-    "quote": "yo from vw",
+    "id": "1",
+    "quote": "Silence is loud",
     "status": "experienced",
-    "created_at": "1/8/2023 8:45:24 PM"
+    "created_at": "1/12/2018 3:17:07 PM"
   },
   {
-    "id": 3,
-    "quote": "yo from booo",
-    "status": "boo",
-    "created_at": "1/9/2023 1:4:24 PM"
+    "id": "2",
+    "quote": "No one notices things until its missing",
+    "status": "experienced",
+    "created_at": "5/5/2018 12:22:24 PM"
+  },
+  {
+    "id": "3",
+    "quote": "My feeling belongs in my dream only",
+    "status": "experienced",
+    "created_at": "5/11/2018 3:27:16 AM"
   },
   {
     "id": "4",
-    "quote": "tesrrr",
+    "quote": "Excited means unexpected ",
     "status": "experienced",
-    "created_at": "1/9/2023 9:45:24 PM"
+    "created_at": "5/12/2018 8:27:16 PM"
   },
   {
     "id": "5",
-    "quote": "5th ",
+    "quote": "Not dream, I just want what I need",
     "status": "perceived",
-    "created_at": "1/9/2023 10:03:13 PM"
+    "created_at": "6/5/2018 9:12:15 PM"
   },
   {
     "id": "6",
-    "quote": "test6",
+    "quote": "Relations are always  better with temporary people",
+    "status": "perceived",
+    "created_at": "6/19/2018 11:30:17 AM"
+  },
+  {
+    "id": "7",
+    "quote": "How this fucking present can be gold when it will be old",
+    "status": "perceived",
+    "created_at": "7/6/2018 5:30:17 PM"
+  },
+  {
+    "id": "8",
+    "quote": "Dreaming Dream",
     "status": "experienced",
-    "created_at": "1/10/2023 12:43:10 AM"
+    "created_at": "8/18/2018 4:42:11 AM"
+  },
+  {
+    "id": "9",
+    "quote": "Dream- incognito mode for alternate timeline",
+    "status": "perceived",
+    "created_at": "9/10/2018 7:11:19 PM"
+  },
+  {
+    "id": "10",
+    "quote": "Why would my imaginary fuck you if I don't like you?",
+    "status": "experienced",
+    "created_at": "9/18/2018 9:55:49 PM"
+  },
+  {
+    "id": "11",
+    "quote": "Optional things will only matter when you are up to something else",
+    "status": "experienced",
+    "created_at": "9/17/2018 8:32:11 PM"
+  },
+  {
+    "id": "12",
+    "quote": "Being apart is a part of your life",
+    "status": "experienced",
+    "created_at": "10/13/2018 4:43:22 PM"
+  },
+  {
+    "id": "13",
+    "quote": "Too bad at making and breaking",
+    "status": "experienced",
+    "created_at": "10/14/2018 7:09:43 PM"
+  },
+  {
+    "id": "14",
+    "quote": "Winner beats opponents reason' to win",
+    "status": "perceived",
+    "created_at": "11/07/2018 11:12:33 AM"
+  },
+  {
+    "id": "15",
+    "quote": "Everything is valuable as 'Valueless' until the feeling occurs",
+    "status": "experienced",
+    "created_at": "01/15/2019 1:12:33 AM"
+  },
+  {
+    "id": "16",
+    "quote": "Home is not made for boys. Boys make home",
+    "status": "perceived",
+    "created_at": "01/15/2019 11:12:33 AM"
+  },
+  {
+    "id": "17",
+    "quote": "Finding sense in a girl is complete nonsense",
+    "status": "experienced",
+    "created_at": "01/15/2019 10:54:09 PM"
+  },
+  {
+    "id": "18",
+    "quote": "Some parts of me want me to feel sad when I am happy",
+    "status": "experienced",
+    "created_at": "01/16/2019 6:54:09 PM"
+  },
+  {
+    "id": "19",
+    "quote": "I don't need others to make me happy",
+    "status": "perceived",
+    "created_at": "01/24/2019 7:54:32 PM"
+  },
+  {
+    "id": "20",
+    "quote": "I was not excited when I had it, but it made me sad after losing",
+    "status": "experienced",
+    "created_at": "02/12/2019 2:21:19 PM"
+  },
+  {
+    "id": "21",
+    "quote": "Society wants me to hate myself to make them happy",
+    "status": "experienced",
+    "created_at": "02/25/2019 11:45:11 PM"
+  },
+  {
+    "id": "22",
+    "quote": "Like every day, realizing today- I was dumb yesterday",
+    "status": "experienced",
+    "created_at": "03/08/2019 2:18:41 AM"
+  },
+  {
+    "id": "23",
+    "quote": "Coincidence: You'll hate it until you love it",
+    "status": "experienced",
+    "created_at": "03/09/2019 8:12:11 PM"
+  },
+  {
+    "id": "24",
+    "quote": "I searched happiness to be sad",
+    "status": "experienced",
+    "created_at": "04/19/2019 8:34:09 PM"
+  },
+  {
+    "id": "25",
+    "quote": "Peace- where no dream needs to be born",
+    "status": "perceived",
+    "created_at": "04/27/2019 5:12:56 PM"
+  },
+  {
+    "id": "26",
+    "quote": "Good explanation of failure helps me to lose again",
+    "status": "experienced",
+    "created_at": "08/13/2019 12:11:45 PM"
+  },
+  {
+    "id": "27",
+    "quote": "Valid reason for failure is making me mad",
+    "status": "experienced",
+    "created_at": "09/05/2019 1:32:11 PM"
+  },
+  {
+    "id": "28",
+    "quote": "Why every goodbye feels permanent",
+    "status": "perceived",
+    "created_at": "01/10/2020 2:45:12 PM"
+  },
+  {
+    "id": "28",
+    "quote": "We are here to extend love",
+    "status": "perceived",
+    "created_at": "05/26/2020 8:12:32 PM"
+  },
+  {
+    "id": "30",
+    "quote": "Breaking history is the real history",
+    "status": "perceived",
+    "created_at": "06/19/2018 11:39:32 PM"
+  },
+  {
+    "id": "31",
+    "quote": "Luck is relative",
+    "status": "experienced",
+    "created_at": "06/24/2018 3:12:11 PM"
+  },
+  {
+    "id": "32",
+    "quote": "TIme going hard? Congrats, You have successfully enjoyed your past",
+    "status": "experienced",
+    "created_at": "1/01/2019 1:01:56 AM"
+  },
+  {
+    "id": "32",
+    "quote": "In the first class of University, I was thinking how fun the last class would be",
+    "status": "perceived",
+    "created_at": "1/14/2019 3:12:11 PM"
+  },
+  {
+    "id": "33",
+    "quote": "I like the idea of not having things, which makes them more valuable than having",
+    "status": "perceived",
+    "created_at": "1/28/2019 8:22:17 PM"
+  },
+  {
+    "id": "34",
+    "quote": "Practicing to shape my thoughts into reality",
+    "status": "experienced",
+    "created_at": "2/19/2019 10:22:17 PM"
+  },
+  {
+    "id": "35",
+    "quote": "Made my own storm to clear my sky",
+    "status": "experienced",
+    "created_at": "2/25/2019 9:18:17 PM"
+  },
+  {
+    "id": "36",
+    "quote": "Shouldn't have brought fun from the future",
+    "status": "experienced",
+    "created_at": "3/10/2019 8:57:11 PM"
+  },
+  {
+    "id": "37",
+    "quote": "The first time I visited a place was the last time I enjoyed",
+    "status": "experienced",
+    "created_at": "4/06/2019 1:12:11 PM"
+  },
+  {
+    "id": "38",
+    "quote": "Salted popcorn with my tears",
+    "status": "experienced",
+    "created_at": "5/02/2019 3:12:11 AM"
+  },
+  {
+    "id": "39",
+    "quote": "I am not living in the fantasy world you want to create",
+    "status": "perceived",
+    "created_at": "6/15/2019 4:47:34 PM"
+  },
+  {
+    "id": "40",
+    "quote": "I think of the part I don't want",
+    "status": "perceived",
+    "created_at": "6/29/2019 5:18:34 PM"
+  },
+  {
+    "id": "41",
+    "quote": "Every day sucks, especially special days",
+    "status": "experienced",
+    "created_at": "2/14/2019 11:12:34 PM"
+  },
+  {
+    "id": "42",
+    "quote": "There will be day I am struggling for",
+    "status": "experienced",
+    "created_at": "8/4/2019 7:45:34 PM"
+  },
+  {
+    "id": "43",
+    "quote": "Life is an endless 'More' till death",
+    "status": "perceived",
+    "created_at": "8/31/2019 4:53:34 PM"
+  },
+  {
+    "id": "44",
+    "quote": "If you can't realize something from your pain, then you can take a lot more",
+    "status": "perceived",
+    "created_at": "2/6/2020 10:11:56 PM"
+  },
+  {
+    "id": "45",
+    "quote": "We live in someone else's dream",
+    "status": "experienced",
+    "created_at": "2/17/2020 8:32:56 PM"
+  },
+  {
+    "id": "46",
+    "quote": "Learning to teach a machine",
+    "status": "experienced",
+    "created_at": "2/19/2020 9:12:16 PM"
+  },
+  {
+    "id": "47",
+    "quote": "The moment when you realize everything you did led to this moment without realizing",
+    "status": "perceived",
+    "created_at": "3/25/2020 1:56:16 AM"
+  },
+  {
+    "id": "48",
+    "quote": "Lazy, until desperate",
+    "status": "experienced",
+    "created_at": "4/15/2020 12:18:11 PM"
+  },
+  {
+    "id": "49",
+    "quote": "Intention changes by losing its emotional requirement",
+    "status": "perceived",
+    "created_at": "5/10/2020 2:56:43 PM"
+  },
+  {
+    "id": "50",
+    "quote": "memory lies",
+    "status": "experienced",
+    "created_at": "5/17/2020 3:17:55 PM"
+  },
+  {
+    "id": "51",
+    "quote": "It did not matter then; why am I feeling regret?",
+    "status": "experienced",
+    "created_at": "10/23/2020 8:43:12 PM"
+  },
+  {
+    "id": "52",
+    "quote": "I know what I don't know",
+    "status": "experienced",
+    "created_at": "11/3/2020 6:12:19 PM"
+  },
+  {
+    "id": "53",
+    "quote": "I enjoy doing things that I do not like",
+    "status": "experienced",
+    "created_at": "11/29/2020 9:52:02 PM"
+  },
+  {
+    "id": "54",
+    "quote": "Tomorrow, Today will be Yesterday",
+    "status": "perceived",
+    "created_at": "1/25/2021 5:01:29 PM"
+  },
+  {
+    "id": "55",
+    "quote": "We live to create systems in someone else's system",
+    "status": "perceived",
+    "created_at": "2/04/2021 1:32:11 PM"
+  },
+  {
+    "id": "56",
+    "quote": "Luck cannot be trusted",
+    "status": "perceived",
+    "created_at": "2/24/2021 12:18:49 PM"
+  },
+  {
+    "id": "57",
+    "quote": "Modifying reality to shape my dream",
+    "status": "perceived",
+    "created_at": "5/27/2021 10:45:03 PM"
+  },
+  {
+    "id": "58",
+    "quote": "99% follows 1%",
+    "status": "perceived",
+    "created_at": "7/17/2021 12:18:29 PM"
+  },
+  {
+    "id": "59",
+    "quote": "We enjoy the sad moments without realizing",
+    "status": "experienced",
+    "created_at": "8/17/2021 5:45:11 PM"
+  },
+  {
+    "id": "60",
+    "quote": "Useless things are important in front of nothing",
+    "status": "experienced",
+    "created_at": "8/20/2021 9:09:56 PM"
+  },
+  {
+    "id": "61",
+    "quote": "Saved the routine in my mind only to remember it in the exam hall",
+    "status": "experienced",
+    "created_at": "4/15/2019 11:09:56 PM"
+  },
+  {
+    "id": "62",
+    "quote": "Sometimes Emotion is the physical prison of your will",
+    "status": "perceived",
+    "created_at": "1/10/2022 11:09:56 PM"
+  },
+  {
+    "id": "63",
+    "quote": "Freedom is costly",
+    "status": "experienced",
+    "created_at": "1/26/2022 3:14:39 AM"
+  },
+  {
+    "id": "64",
+    "quote": "Your happiness costs someone else's freedom",
+    "status": "experienced",
+    "created_at": "2/16/2022 9:43:12 AM"
+  },
+  {
+    "id": "65",
+    "quote": "Sometimes the cost of happiness is far from being happy",
+    "status": "perceived",
+    "created_at": "2/26/2022 11:12:52 PM"
+  },
+  {
+    "id": "66",
+    "quote": "Someone's limitation controls another's life",
+    "status": "experienced",
+    "created_at": "3/04/2022 12:34:02 PM"
+  },
+  {
+    "id": "67",
+    "quote": "Realizing things without experiencing them adds little value when it comes to making decisions",
+    "status": "experienced",
+    "created_at": "3/05/2022 5:11:45 AM"
+  },
+  {
+    "id": "68",
+    "quote": "Stuck in the process of enjoying life",
+    "status": "experienced",
+    "created_at": "3/9/2022 9:44:12 PM"
+  },
+  {
+    "id": "69",
+    "quote": "People will give you good advice and expect you to be bad at it",
+    "status": "experienced",
+    "created_at": "3/10/2022 11:16:51 PM"
+  },
+  {
+    "id": "70",
+    "quote": "Love dies when memory outperforms",
+    "status": "experienced",
+    "created_at": "4/07/2022 6:54:31 AM"
+  },
+  {
+    "id": "71",
+    "quote": "The dream life of unorganized people is the boring life of expected people",
+    "status": "perceived",
+    "created_at": "4/10/2022 9:41:15 PM"
+  },
+  {
+    "id": "72",
+    "quote": "The time you think about doing something is the actual time to do that",
+    "status": "experienced",
+    "created_at": "8/26/2022 2:39:26 PM"
+  },
+  {
+    "id": "72",
+    "quote": "The people we dream with are what makes life worth recreating",
+    "status": "perceived",
+    "created_at": "8/30/2022 2:48:53 AM"
+  },
+  {
+    "id": "73",
+    "quote": "We only live to feel a few worthwhile minutes of life. ",
+    "status": "perceived",
+    "created_at": "9/24/2022 3:02:11 AM"
+  },
+  {
+    "id": "74",
+    "quote": "Friends are important. They validate your happiness",
+    "status": "experienced",
+    "created_at": "10/08/2022 4:15:22 AM"
+  },
+  {
+    "id": "75",
+    "quote": "Some long waited situation wont be the way you expected",
+    "status": "perceived",
+    "created_at": "10/25/2022 5:43:12 PM"
+  },
+  {
+    "id": "76",
+    "quote": "Comfort will be a regret if you don't choose happiness over it and suffer",
+    "status": "perceived",
+    "created_at": "11/18/2022 10:55:52 PM"
+  },
+  {
+    "id": "77",
+    "quote": "Reality before Q'uotes",
+    "status": "experienced",
+    "created_at": "11/23/2022 1:12:52 AM"
+  },
+  {
+    "id": "78",
+    "quote": "You'll hate the lucky people until you're the one",
+    "status": "perceived",
+    "created_at": "12/02/2022 3:43:11 AM"
+  },
+  {
+    "id": "79",
+    "quote": "You'll be a stranger in the reality of your dream",
+    "status": "perceived",
+    "created_at": "12/16/2022 7:36:43 PM"
+  },
+  {
+    "id": "80",
+    "quote": "You hate the things people love about you",
+    "status": "experienced",
+    "created_at": "12/16/2022 11:03:12 PM"
+  },
+  {
+    "id": "81",
+    "quote": "If your opponents lose terribly, there is nothing to brag about",
+    "status": "experienced",
+    "created_at": "12/21/2022 2:18:37 AM"
+  },
+  {
+    "id": "82",
+    "quote": "Experiencing the loneliness after winning before winning",
+    "status": "perceived",
+    "created_at": "12/19/2022 2:33:41 AM"
+  },
+  {
+    "id": "83",
+    "quote": "It's the same circle that repeats with everyone",
+    "status": "perceived",
+    "created_at": "12/30/2022 11:18:21 PM"
   }
 ]

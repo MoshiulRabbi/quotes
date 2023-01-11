@@ -35,11 +35,11 @@ class App extends React.Component {
             <div className="about">
               <div className="cover-author-image">
                 <a href="/quotes/">
-                  <img src={img} alt="MH Rabbi" />
+                  <img src={img} alt="Moshiul Rabbi" />
                 </a>
               </div>
-              <div className="author-name">MH Rabbi</div>
-              <p>I Relate Things and Write Sometimes.</p>
+              <div className="author-name">Moshiul Rabbi</div>
+              <p>I Relate things and Write about them Sometimes</p>
             </div>
           </header>
 
@@ -59,7 +59,7 @@ class App extends React.Component {
 
                 <li>
                   <a
-                    href="https://facebook.com/Moshiul.Rabbi"
+                    href="https://facebook.com/MoshiulRabbi"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -79,7 +79,7 @@ class App extends React.Component {
 
                 <li className="linkedin">
                   <a
-                    href="https://in.linkedin.com/in/mhrabbi"
+                    href="https://in.linkedin.com/in/moshiulrabbi"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -96,7 +96,7 @@ class App extends React.Component {
             </section>
 
             <div className="copyright">
-              <p>2023 &copy; MH Rabbi</p>
+              <p>2023 &copy; Moshiul Rabbi</p>
             </div>
           </footer>
         </aside>
