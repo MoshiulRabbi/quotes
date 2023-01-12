@@ -942,6 +942,11 @@ table tfoot td {
 .clearfix::after {
   clear: both;
 }
+.loader {
+  background-color: #fbfbfb;
+  padding: 10px;
+  text-align: center;
+}
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {

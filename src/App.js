@@ -4,26 +4,42 @@ import "font-awesome/css/font-awesome.min.css";
 import "./index.css";
 import React from "react";
 import moment from "moment";
+import InfiniteScroll from "react-infinite-scroller";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       quoteList: [],
+      offset: 0,
+      limit: 5,
+      hasMoreItems: true,
     };
     this.fetchTasks = this.fetchTasks.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.fetchTasks();
   }
 
   fetchTasks = () => {
-    let data = require("./data.json");
-    data.sort((a, b) => {
-      return new Date(b.created_at) - new Date(a.created_at);
-    });
-    this.setState({ quoteList: data });
+    setTimeout(() => {
+      let data = require("./data.json");
+      data.sort((a, b) => {
+        return new Date(b.created_at) - new Date(a.created_at);
+      });
+      let offset = this.state.offset;
+      let limit = this.state.limit;
+      let sliceData = data.slice(offset, offset + limit);
+      if (sliceData.length === 0) {
+        this.setState({ hasMoreItems: false });
+      } else {
+        this.setState((prevState) => ({
+          quoteList: [...prevState.quoteList, ...sliceData],
+          offset: prevState.offset + limit,
+        }));
+      }
+    }, 200);
   };
 
   render() {
@@ -101,24 +117,34 @@ class App extends React.Component {
           </footer>
         </aside>
 
-        <div className="content-box">
-          {quote.map(function (quote, index) {
-            return (
-              <article key={index} className="post">
-                <div className="post-content">
-                  <h2 className="post-title">
-                    <a href={() => false}>"{quote.quote}"</a>
-                  </h2>
-                  <p className="post-words"> ({quote.status}) </p>
-                  <span className="post-date">
-                    —{moment(quote.created_at).format("LLLL")}
-                  </span>
-                  {/* <span className="post-words">Perceived</span> */}
-                </div>
-              </article>
-            );
-          })}
-        </div>
+        <InfiniteScroll
+          pageStart={0}
+          loadMore={this.fetchTasks}
+          hasMore={this.state.hasMoreItems}
+          loader={
+            <div className="loader" key={0}>
+              <i className="fa fa-spinner fa-spin"></i>
+            </div>
+          }
+        >
+          <div className="content-box">
+            {quote.map(function (quote, index) {
+              return (
+                <article key={index} className="post">
+                  <div className="post-content">
+                    <h2 className="post-title">
+                      <a href={() => false}>"{quote.quote}"</a>
+                    </h2>
+                    <p className="post-words"> ({quote.status}) </p>
+                    <span className="post-date">
+                      —{moment(quote.created_at).format("LLLL")}
+                    </span>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </InfiniteScroll>
       </div>
     );
   }
