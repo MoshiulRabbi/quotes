@@ -5,6 +5,7 @@ import "./index.css";
 import React from "react";
 import moment from "moment";
 import InfiniteScroll from "react-infinite-scroller";
+import ScrollUpButton from "react-scroll-up-button";
 
 class App extends React.Component {
   constructor(props) {
@@ -143,6 +144,9 @@ class App extends React.Component {
                 </article>
               );
             })}
+          </div>
+          <div>
+            <ScrollUpButton />
           </div>
         </InfiniteScroll>
       </div>
