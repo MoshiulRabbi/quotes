@@ -105,7 +105,7 @@ class App extends React.Component {
                 </li>
 
                 <li className="email">
-                  <a href="mailto:moshiul15-12574@diu.edu.bd">
+                  <a href="mailto:moshiul.rabbi@gmail.com">
                     <i className="fa fa-envelope-o" aria-hidden="true"></i>
                   </a>
                 </li>
