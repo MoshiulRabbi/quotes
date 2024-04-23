@@ -39,7 +39,7 @@ class App extends React.Component {
                 </a>
               </div>
               <div className="author-name">Moshiul Rabbi</div>
-              <p>I Relate things and Write about them Sometimes</p>
+              <p>I relate life with words here.</p>
             </div>
           </header>
 
