@@ -88,7 +88,7 @@ class App extends React.Component {
                 </li>
 
                 <li className="email">
-                  <a href="mailto:moshiul.rabbi@gmail.com">
+                  <a href="mailto:moshiul.huq@gmail.com">
                     <i className="fa fa-envelope-o" aria-hidden="true"></i>
                   </a>
                 </li>
@@ -96,7 +96,7 @@ class App extends React.Component {
             </section>
 
             <div className="copyright">
-              <p>2023 &copy; Moshiul Rabbi</p>
+              <p>2025 &copy; Moshiul Rabbi</p>
             </div>
           </footer>
         </aside>
