@@ -953,5 +953,376 @@
     "status": "experienced",
     "created_at": "4/19/2024 3:11:38 AM"
   },
-  {"id":"158","quote":"Parting is a part of life.","status":"experienced","created_at":"04/28/2024 11:36:13 AM"}
+  {
+    "id": "158",
+    "quote": "Parting is a part of life.",
+    "status": "experienced",
+    "created_at": "04/28/2024 11:36:13 AM"
+  },
+  {
+    "id": "159",
+    "quote": "Living the predetermined dream",
+    "status": "experienced",
+    "created_at": "04/30/2024 4:13:13 AM"
+  },
+  {
+    "id": "160",
+    "quote": "people won't react to your problem the way you expect.",
+    "status": "experienced",
+    "created_at": "01/05/2024 12:44:13 PM"
+  },
+  {
+    "id": "161",
+    "quote": "Dreams are performing well in my reality lately.",
+    "status": "experienced",
+    "created_at": "11/05/2024 07:28:13 PM"
+  },
+  {
+    "id": "162",
+    "quote": "Purpose piling up",
+    "status": "perceived",
+    "created_at": "26/06/2024 02:11:13 AM"
+  },
+  {
+    "id": "163",
+    "quote": "Losing random people who watched me grow.",
+    "status": "perceived",
+    "created_at": "10/07/2024 11:09:13 PM"
+  },
+  {
+    "id": "164",
+    "quote": "Purpose fades memories.",
+    "status": "experienced",
+    "created_at": "10/07/2024 02:39:13 AM"
+  },
+  {
+    "id": "165",
+    "quote": "Your reality is better in my mind.",
+    "status": "experienced",
+    "created_at": "24/07/2024 05:11:13 AM"
+  },
+  {
+    "id": "166",
+    "quote": "It's always the other things that should have.",
+    "status": "experienced",
+    "created_at": "26/07/2024 05:12:18 PM"
+  },
+  {
+    "id": "167",
+    "quote": "Distance changes special days",
+    "status": "experienced",
+    "created_at": "03/08/2024 08:45:18 AM"
+  },
+  {
+    "id": "168",
+    "quote": "Intention works even if you do not.",
+    "status": "experienced",
+    "created_at": "13/08/2024 11:34:45 PM"
+  },
+  {
+    "id": "169",
+    "quote": "Not enough now is what you've dreamed of before.",
+    "status": "experienced",
+    "created_at": "18/08/2024 2:11:45 AM"
+  },
+  {
+    "id": "170",
+    "quote": "People will look for the same things in you that you once looked for.",
+    "status": "experienced",
+    "created_at": "24/08/2024 7:56:11 PM"
+  },
+  {
+    "id": "171",
+    "quote": "Be careful what you’re grateful for ",
+    "status": "experienced",
+    "created_at": "02/09/2024 6:23:22 AM"
+  },
+  {
+    "id": "172",
+    "quote": "Those who tell who they are, are not who they are.",
+    "status": "experienced",
+    "created_at": "04/09/2024 2:12:52 PM"
+  },
+  {
+    "id": "173",
+    "quote": "Gratitude shown too early is likely to be tested.",
+    "status": "experienced",
+    "created_at": "09/04/2024 10:20:52 PM"
+  },
+  {
+    "id": "174",
+    "quote": "Who said you'd be happy living your dream?",
+    "status": "experienced",
+    "created_at": "09/08/2024 11:20:52 PM"
+  },
+  {
+    "id": "175",
+    "quote": "Time that we do not count still flows.",
+    "status": "experienced",
+    "created_at": "09/26/2024 1:50:52 PM"
+  },
+  {
+    "id": "176",
+    "quote": "Situations will make you do both.",
+    "status": "experienced",
+    "created_at": "10/11/2024 5:12:52 AM"
+  },
+  {
+    "id": "177",
+    "quote": "Skipping your part is the biggest mistake you'll ever make.",
+    "status": "experienced",
+    "created_at": "11/06/2024 11:12:52 PM"
+  },
+  {
+    "id": "178",
+    "quote": "Is loving and being happy related in any way?",
+    "status": "experienced",
+    "created_at": "11/07/2024 3:55:52 AM"
+  },
+  {
+    "id": "179",
+    "quote": "Let's make the past special, starting tomorrow.",
+    "status": "perceived",
+    "created_at": "11/09/2024 2:15:52 AM"
+  },
+  {
+    "id": "180",
+    "quote": "Do not make it hard to match what you say.",
+    "status": "perceived",
+    "created_at": "11/27/2024 12:23:52 PM"
+  },
+  {
+    "id": "181",
+    "quote": "Distance glitches happiness.",
+    "status": "experienced",
+    "created_at": "11/27/2024 9:43:52 PM"
+  },
+  {
+    "id": "182",
+    "quote": "It's not the war that solves the problem, it's the before or after.",
+    "status": "experienced",
+    "created_at": "12/02/2024 12:43:52 AM"
+  },
+  {
+    "id": "183",
+    "quote": "We stay far only to live together?",
+    "status": "experienced",
+    "created_at": "12/14/2024 4:12:22 AM"
+  },
+  {
+    "id": "184",
+    "quote": "Less place makes you dream less.",
+    "status": "experienced",
+    "created_at": "12/15/2024 1:12:22 PM"
+  },
+  {
+    "id": "185",
+    "quote": "In the future, you can see your past self in someone else.",
+    "status": "experienced",
+    "created_at": "12/27/2024 7:11:22 PM"
+  },
+  {
+    "id": "186",
+    "quote": "You'll feel proud for the moment you suffered.",
+    "status": "experienced",
+    "created_at": "12/27/2024 12:11:22 PM"
+  },
+  {
+    "id": "187",
+    "quote": "If you think you're winning, check the person who is not talking.",
+    "status": "perceived",
+    "created_at": "12/28/2024 2:11:22 AM"
+  },
+  {
+    "id": "188",
+    "quote": "We actually reverse in life.",
+    "status": "experienced",
+    "created_at": "01/01/2025 6:11:22 PM"
+  },
+  {
+    "id": "189",
+    "quote": "It's really sad that life is not.",
+    "status": "experienced",
+    "created_at": "1/01/2025 10:42:45 PM"
+  },
+  {
+    "id": "190",
+    "quote": "Pain is the pride you feel in comfort.",
+    "status": "experienced",
+    "created_at": "02/06/2025 10:42:45 PM"
+  },
+  {
+    "id": "191",
+    "quote": "Beating your dream while someone beats mine.",
+    "status": "experienced",
+    "created_at": "02/13/2025 12:46:45 AM"
+  },
+  {
+    "id": "192",
+    "quote": "You've to be selfish to be happy.",
+    "status": "perceived",
+    "created_at": "02/16/2025 3:46:45 AM"
+  },
+  {
+    "id": "193",
+    "quote": "What you desire is what you sacrifice to give to others.",
+    "status": "perceived",
+    "created_at": "03/03/2025 1:45:23 AM"
+  },
+  {
+    "id": "194",
+    "quote": "Thinking where I'll go from here takes away from there.",
+    "status": "experienced",
+    "created_at": "04/15/2025 3:55:11 AM"
+  },
+  {
+    "id": "195",
+    "quote": "We sell one dream to buy another.",
+    "status": "experienced",
+    "created_at": "04/22/2025 3:53:54 AM"
+  },
+  {
+    "id": "196",
+    "quote": "Only if AM and PM thoughts were the same.",
+    "status": "experienced",
+    "created_at": "05/02/2025 4:23:21 AM"
+  },
+  {
+    "id": "197",
+    "quote": "Angry to someone else is literally being angry to your own decision.",
+    "status": "experienced",
+    "created_at": "06/01/2025 6:22:23 PM"
+  },
+  {
+    "id": "198",
+    "quote": "If only seeing this was what I thought my life would be.",
+    "status": "experienced",
+    "created_at": "06/01/2025 8:42:33 PM"
+  },
+  {
+    "id": "200",
+    "quote": "If you want to be like someone else, consider living their consequences too.",
+    "status": "perceived",
+    "created_at": "06/04/2025 2:11:33 AM"
+  },
+  {
+    "id": "201",
+    "quote": "Privacy is the protection of happiness",
+    "status": "experienced",
+    "created_at": "06/09/2025 2:55:25 AM"
+  },
+  {
+    "id": "202",
+    "quote": "Literally every other option is better than regret.",
+    "status": "experienced",
+    "created_at": "06/14/2025 4:15:36 AM"
+  },
+  {
+    "id": "203",
+    "quote": "Luck always looks like skill to the uninformed.",
+    "status": "experienced",
+    "created_at": "06/18/2025 12:22:45 AM"
+  },
+  {
+    "id": "204",
+    "quote": "Love makes you believe what is not real.",
+    "status": "experienced",
+    "created_at": "06/25/2025 4:12:11 AM"
+  },
+  {
+    "id": "205",
+    "quote": "Every first experience becomes a memory you carry.",
+    "status": "experienced",
+    "created_at": "07/12/2025 1:46:23 AM"
+  },
+  {
+    "id": "206",
+    "quote": "DREAM connects the same people.",
+    "status": "experienced",
+    "created_at": "08/3/2025 3:26:53 AM"
+  },
+  {
+    "id": "207",
+    "quote": "Out of box is out of context",
+    "status": "perceived",
+    "created_at": "08/13/2025 4:22:35 PM"
+  },
+  {
+    "id": "208",
+    "quote": "You'll seek out those who took action rather than those who merely knew.",
+    "status": "experienced",
+    "created_at": "08/13/2025 4:26:35 PM"
+  },
+  {
+    "id": "209",
+    "quote": "Anything that makes you live changes you.",
+    "status": "experienced",
+    "created_at": "08/24/2025 2:12:03 PM"
+  },
+  {
+    "id": "210",
+    "quote": "People love to live in anticipation.",
+    "status": "experienced",
+    "created_at": "08/24/2025 3:12:03 AM"
+  },
+  {
+    "id": "211",
+    "quote": "Time is the only thing that always get away.",
+    "status": "experienced",
+    "created_at": "08/31/2025 1:11:03 AM"
+  },
+  {
+    "id": "212",
+    "quote": "Do not trust the people who are addicted.",
+    "status": "experienced",
+    "created_at": "09/07/2025 6:43:03 PM"
+  },
+  {
+    "id": "213",
+    "quote": "Siblings are the greatest gift parents can give.",
+    "status": "experienced",
+    "created_at": "09/11/2025 9:12:03 PM"
+  },
+  {
+    "id": "214",
+    "quote": "Airport always questions my dream.",
+    "status": "experienced",
+    "created_at": "09/14/2025 12:02:03 AM"
+  },
+  {
+    "id": "215",
+    "quote": "Fear kills dream",
+    "status": "experienced",
+    "created_at": "10/10/2025 2:11:22 AM"
+  },
+  {
+    "id": "216",
+    "quote": "Is happy time a dream?",
+    "status": "perceived",
+    "created_at": "10/14/2025 5:35:22 AM"
+  },
+  {
+    "id": "217",
+    "quote": "To make it real, don't kill the boy who dreamed.",
+    "status": "perceived",
+    "created_at": "10/27/2025 2:36:11 AM"
+  },
+  {
+    "id": "219",
+    "quote": "How are you sure being lucky didn't make things worse?",
+    "status": "perceived",
+    "created_at": "10/28/2025 11:36:11 AM"
+  },
+  {
+    "id": "220",
+    "quote": "The life you try to ignore is being defined by other people.",
+    "status": "experienced",
+    "created_at": "11/15/2025 4:12:54 AM"
+  },
+  {
+    "id": "221",
+    "quote": "For whatever reason you don't want to die, is the meaning of life.",
+    "status": "perceived",
+    "created_at": "11/16/2025 7:35:27 AM"
+  }
 ]
