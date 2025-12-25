@@ -18,13 +18,23 @@ class App extends React.Component {
     this.fetchTasks();
   }
 
+  // fetchTasks = () => {
+  //   let data = require("./data.json");
+  //   data.sort((a, b) => {
+  //     return new Date(b.created_at) - new Date(a.created_at);
+  //   });
+  //   this.setState({ quoteList: data });
+  // };
+
   fetchTasks = () => {
-    let data = require("./data.json");
-    data.sort((a, b) => {
+  let data = require("./data.json");
+  this.setState({ 
+    quoteList: [...data].sort((a, b) => {
       return new Date(b.created_at) - new Date(a.created_at);
-    });
-    this.setState({ quoteList: data });
-  };
+    })
+  });
+};
+
 
   render() {
     var quote = this.state.quoteList;
